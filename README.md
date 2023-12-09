@@ -8,10 +8,10 @@ templater.py [configuration]
 ```
 ## Example from input file
 ```sh
-templater.py [configuration] < example.template  
+templater.py conf.json < example.template  
 ```
 
 ## Example from input file to output file
 ```sh
-templater.py [configuration] < example.template > example.output  
+templater.py conf.json < example.template > example.output  
 ```
